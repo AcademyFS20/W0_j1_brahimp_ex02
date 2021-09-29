@@ -17,10 +17,10 @@ header {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	align-content: stretch;
-    background-color: green;
+    background-color: rgb(86, 209, 86);
     width: 80%;
     
 }
@@ -32,9 +32,8 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	align-content: stretch;
-    /*padding-left: 34%;*/
  }
-ul {
+ul,a {
     display:flex;
     justify-content: space-between;
     padding:15px;
@@ -42,12 +41,27 @@ ul {
     font-size: 21px;
     color: black;
 }
+li{
+    display:flex;
+    padding:15px;
+}
+
 main{
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    align-items: center;
     width: 80%;
     background-color: white;
-}
+}     
+article{
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:20px;
+}          
 h2{
-    font-size: 34px;
+    font-size: 26px;
+    color: rgb(86, 209, 86);
 }
 p{
     font-size: 21px;
@@ -57,15 +71,15 @@ p{
    float: left;
    width: 150px;
    height: 150px;
-   margin-right: 30px;
+   padding-right: 30px;
 }
 button {
     float:right;
+    background-color: rgb(86, 209, 86);
     color:white;
-    background-color: green;
     height: 40px;
     width: 120px;
-}
+    }
 
 
 .clear{
